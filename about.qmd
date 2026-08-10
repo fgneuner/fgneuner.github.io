@@ -1,0 +1,63 @@
+---
+title: "Fabian Guy Neuner"
+toc: false
+pagetitle: "Home"
+page-layout: full
+#back-to-top-navigation: true
+subtitle: |
+  Associate Professor \
+  University of Colorado Boulder \
+  ------------------------
+image: files/Neuner_Headshot.JPG
+
+about:
+  template: trestles
+  image-shape: round
+  image-width: 20rem
+  links:
+    - text: '<img src="files/cu-logo.png" alt="CU Boulder faculty profile" class="about-link-cu-logo">'
+      href: https://www.colorado.edu/polisci/fabian-neuner
+      target: _blank
+    - icon: envelope
+      href: mailto:fabian.neuner@colorado.edu    
+    - icon: linkedin
+      href: https://www.linkedin.com/in/fabian-neuner-b8799a402/
+      target: _blank
+    - icon: bluesky
+      href: https://bsky.app/profile/fabianneuner.bsky.social
+      target: _blank
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-9357-0552
+      target: _blank
+    #- #text: "{{< ai clarivate >}}"
+      #href: https://www.webofscience.com  
+    #  target: _blank
+    #- text: "{{< ai scopus >}}"
+      #href: https://www.scopus.com
+      #target: _blank
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=1XK6nFAAAAAJ&hl=en&oi=ao
+      target: _blank
+    - text: "{{< ai researchgate >}}"
+      href: https://www.researchgate.net/profile/Fabian-Neuner?ev=hdr_xprf
+      target: _blank
+
+---
+
+## Welcome
+
+I am an Associate Professor in the [Department of Political Science](https://www.colorado.edu/polisci/) and a Faculty Fellow at the [Institute of Behavioral Science](https://ibs.colorado.edu/) at the University of Colorado Boulder. I study political psychology, political behavior, and public opinion, both in the U.S. and in comparative contexts.
+
+## Research
+
+My research examines key dynamics in political psychology including biased information processing, framing, and the drivers of populist voting. To date, my research has been published in a variety of journals, including the *Journal of Politics*, *Political Psychology*, *Political Behavior*, *Public Opinion Quarterly*, *Perspectives on Politics*, and the *Journal of Experimental Political Science* (see my full list of [publications](research.qmd) or my profile on [Google Scholar](https://scholar.google.com/citations?user=1XK6nFAAAAAJ&hl=en&oi=ao)).
+
+Some of my current research focuses on testing interventions to reduce the racial divide in reactions to police shootings. This project builds on published collaborative research and is funded by the [Russell Sage Foundation](https://www.russellsage.org/awarded-project/reducing-racial-polarization-reactions-police-use-force-identifying-mechanisms-and). Another strand of my research aims to explore the drivers of populist voting, focusing on the role of both populist attitudes and voters' substantive issue positions and attitudes.
+
+## Teaching
+
+I teach courses in political psychology, political behavior, and research methods. See my [Teaching page](teaching.qmd) for a list of courses.
+
+## Background
+
+Prior to joining CU Boulder I was an Associate Professor in the [School of Politics and Global Studies](https://spgs.asu.edu/) at Arizona State University. I received a Ph.D. in Political Science from the University of Michigan in 2018 and also hold an M.Phil in Politics (European Politics and Society) from the University of Oxford and a B.Sc. in European Politics, Society and Economics from the University of Birmingham.

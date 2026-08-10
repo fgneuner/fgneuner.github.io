@@ -1,0 +1,8 @@
+---
+title: "Fabian Guy Neuner"
+pagetitle: "Redirecting..."
+---
+
+<meta http-equiv="refresh" content="0; url=about.html">
+
+Redirecting to the [About page](about.html)...

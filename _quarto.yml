@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: docs
+  # copied into docs/ on every render so GitHub Pages never runs the site
+  # through Jekyll (which would otherwise silently drop docs/site_libs/,
+  # since Jekyll ignores underscore-prefixed folders by default)
+  resources:
+    - .nojekyll
+
+
+website:
+  announcement:
+    icon: email
+    #icon: info-circle
+    dismissable: true
+    content: "Please note my new email address: fabian.neuner@colorado.edu"
+    type: dark # Options: primary, secondary, success, danger, warning, info, light, dark
+    position: below-navbar # Options: above-navbar, below-navbar
+    on: homepage # Optional: only show on homepage
+  
+  title: "Fabian Guy Neuner"
+  navbar:
+    pinned: true
+    collapse: true
+    logo-href: about.qmd
+  #background: light
+    left:
+     # - href: index.qmd
+      #  text: Home
+      - href: about.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - text: CV
+        href: files/Neuner_CV.pdf
+        target: _blank
+      
+    #right: 
+
+
+
+
+
+  page-footer: 
+    left: "Fabian Guy Neuner &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center:  <span>Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+    right:
+      - icon: github
+        href: https://github.com/fgneuner
+        target: _blank
+
+
+
+format:
+  html:
+    theme:
+      - flatly
+      #- brand
+    css: styles.css
+    toc: true
+
+
+

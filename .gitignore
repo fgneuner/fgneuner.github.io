@@ -1,0 +1,20 @@
+# Quarto build cache / stale output (docs/ is the real output that gets
+# committed and served by GitHub Pages - these are just local scratch)
+/.quarto/
+/_site/
+
+# RStudio
+*.Rproj
+.Rproj.user/
+.Rhistory
+.Rdata
+.httr-oauth
+
+# macOS
+.DS_Store
+
+# Local-only scratch space - notes, drafts, anything website-adjacent that
+# shouldn't be published. Nothing in here is ever committed.
+/local/
+
+**/*.quarto_ipynb

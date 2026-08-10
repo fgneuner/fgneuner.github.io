@@ -1,0 +1,75 @@
+---
+title: "Research"
+toc: true
+page-layout: full
+back-to-top-navigation: true
+link-external-newwindow: true
+---
+
+```{r setup, include=FALSE}
+# some rendering environments default to a non-UTF-8 locale, which mangles
+# accented characters (e.g. "für") when reading/writing publications.yml
+try(Sys.setlocale("LC_ALL", "en_US.UTF-8"), silent = TRUE)
+
+library(yaml)
+source("R/pub_helpers.R")
+
+pubs <- yaml::read_yaml("publications.yml")
+
+# reverse chronological; radix sort is stable, so entries within the same
+# year keep the order you gave them in publications.yml
+articles <- pubs$articles
+# Online-first pieces (online_first: true) always sort above dated
+# entries, regardless of their placeholder `year`; within each group,
+# reverse-chronological by year, and radix sort is stable so entries
+# that tie on both keep the order you gave them in publications.yml
+is_online_first <- sapply(articles, function(p) isTRUE(p$online_first))
+articles <- articles[order(-is_online_first, -sapply(articles, function(p) p$year), method = "radix")]
+
+manuscripts <- pubs$manuscripts
+```
+
+## Peer-Reviewed Articles
+
+```{r results='asis', echo=FALSE}
+render_category_filter(articles, "pub-article-list")
+```
+
+::: {#pub-article-list}
+```{r results='asis', echo=FALSE}
+render_pub_list(articles)
+```
+:::
+
+## Select Working Papers
+
+```{r results='asis', echo=FALSE}
+render_pub_list(manuscripts)
+```
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async src="https://badge.dimensions.ai/static/ai/badge.js" charset="utf-8"></script>
+<script>
+document.querySelectorAll(".pub-filter-bar").forEach(function (bar) {
+  var target = document.querySelector(bar.getAttribute("data-target"));
+  if (!target) return;
+  var entries = target.querySelectorAll(".pub-entry");
+  bar.querySelectorAll(".pub-filter-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      bar.querySelectorAll(".pub-filter-btn").forEach(function (b) {
+        b.classList.remove("active");
+      });
+      btn.classList.add("active");
+      var filter = btn.getAttribute("data-filter");
+      entries.forEach(function (entry) {
+        if (filter === "all") {
+          entry.style.display = "";
+          return;
+        }
+        var cats = (entry.getAttribute("data-category") || "").split("|");
+        entry.style.display = cats.indexOf(filter) !== -1 ? "" : "none";
+      });
+    });
+  });
+});
+</script>

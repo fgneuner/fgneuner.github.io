@@ -1,0 +1,22 @@
+---
+title: "Teaching"
+toc: false
+page-layout: full
+---
+
+## University of Colorado Boulder
+
+| Course | Semester |
+|---|---|
+| PSCI 2075: Quantitative Research Methods | Fall 2026 |
+
+## Arizona State University
+
+| Course | Years Taught |
+|---|---|
+| Political Psychology | 2019–2023, 2025 |
+| Cognition and Emotions in Political Thinking | 2020–2025 |
+| Advances in Media Effects | 2021–2026 |
+| Advanced Experimental Research | 2023, 2025 |
+| Experimental Design | 2024 |
+| Advanced Political Psychology | 2026 |
