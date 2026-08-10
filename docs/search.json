@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Course\nSemester\n\n\n\n\nPSCI 2075: Quantitative Research Methods\nFall 2026"
+  },
+  {
+    "objectID": "teaching.html#university-of-colorado-boulder",
+    "href": "teaching.html#university-of-colorado-boulder",
+    "title": "Teaching",
+    "section": "",
+    "text": "Course\nSemester\n\n\n\n\nPSCI 2075: Quantitative Research Methods\nFall 2026"
+  },
+  {
+    "objectID": "teaching.html#arizona-state-university",
+    "href": "teaching.html#arizona-state-university",
+    "title": "Teaching",
+    "section": "Arizona State University",
+    "text": "Arizona State University\n\n\n\nCourse\nYears Taught\n\n\n\n\nPolitical Psychology\n2019–2023, 2025\n\n\nCognition and Emotions in Political Thinking\n2020–2025\n\n\nAdvances in Media Effects\n2021–2026\n\n\nAdvanced Experimental Research\n2023, 2025\n\n\nExperimental Design\n2024\n\n\nAdvanced Political Psychology\n2026"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fabian Guy Neuner",
+    "section": "",
+    "text": "Redirecting to the About page…"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Fabian Guy Neuner",
@@ -54,33 +82,5 @@
     "title": "Research",
     "section": "Select Working Papers",
     "text": "Select Working Papers\n\n\nZhirkov, K., Neuner, F.G., and Scholten, M. Marginal Component Effects from Conjoint Experiments as Measures of Preferences: Assessing Predictive Validity at the Individual Level.\n\n\n\n Abstract\n\n\n\n\nMarginal component effects (MCEs) are the most common quantities used to present results from conjoint survey experiments, but recent scholarship has questioned their appropriateness as measures of preferences. Much of this debate concerns the accuracy of the signs and magnitudes of MCEs, which is assessed through aggregate-level analyses. In this paper, we explore the predictive validity of MCEs—the degree to which they map onto measures of other relevant concepts—through individual-level analyses. Our evidence comes from three studies, two in the United States and one in Germany, in which respondents both choose between and rate hypothetical candidates in conjoint experiments—and then report their support for existing parties and policies in separate questions. Using these data, we show that respondents’ preferences measured via individual MCEs in conjoint experiments strongly and consistently predict self-reported party support, voting intentions, and issue positions in the expected directions.\n\n\n\n\n\nNeuner, F.G., and Hechter, M. Status Reversal and its Discontents.\n\n\n\n Abstract\n\n\n\n\nThere is a large literature in the social sciences suggesting that individuals who suffer from a reversal of social status experience negative affect and, some aver, intolerant attitudes towards the groups that threaten to replace them in the status hierarchy. Political scientists and sociologists have long attributed right-wing politics to the loss of status among previously advantaged groups. This paper adds an important caveat to this line of research by seeking to identify the causal impact of actual status loss on in-group bias, outgroup discrimination, and potential downstream political attitudes. Crucially, the experiments isolate the effect of status reversal from that of pre-existing beliefs about lower status outgroups. The results suggest that status reversal is a necessary but insufficient condition for the development of intolerant attitudes and behaviors. The sufficient conditions for the development of reactionary politics likely consist of both actual status reversal and pre-existing intergroup stratification."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Course\nSemester\n\n\n\n\nPSCI 2075: Quantitative Research Methods\nFall 2026"
-  },
-  {
-    "objectID": "teaching.html#university-of-colorado-boulder",
-    "href": "teaching.html#university-of-colorado-boulder",
-    "title": "Teaching",
-    "section": "",
-    "text": "Course\nSemester\n\n\n\n\nPSCI 2075: Quantitative Research Methods\nFall 2026"
-  },
-  {
-    "objectID": "teaching.html#arizona-state-university",
-    "href": "teaching.html#arizona-state-university",
-    "title": "Teaching",
-    "section": "Arizona State University",
-    "text": "Arizona State University\n\n\n\nCourse\nYears Taught\n\n\n\n\nPolitical Psychology\n2019–2023, 2025\n\n\nCognition and Emotions in Political Thinking\n2020–2025\n\n\nAdvances in Media Effects\n2021–2026\n\n\nAdvanced Experimental Research\n2023, 2025\n\n\nExperimental Design\n2024\n\n\nAdvanced Political Psychology\n2026"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fabian Guy Neuner",
-    "section": "",
-    "text": "Redirecting to the About page…"
   }
 ]
