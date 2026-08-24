@@ -6,6 +6,7 @@ project:
   # since Jekyll ignores underscore-prefixed folders by default)
   resources:
     - .nojekyll
+    - files/psci-2075/
   # local/ holds gitignored, unpublished notes (see local/README.md) - by
   # default Quarto renders every .qmd/.md file it finds in the project,
   # which would otherwise copy those notes into docs/ and publish them.
