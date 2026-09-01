@@ -2845,6 +2845,7 @@ vertical-align: -.125em;
 <p><strong>RStudio opens but nothing runs / “R not found”:</strong> RStudio can’t locate your R installation. Reinstall R (Step 1), then fully quit and reopen RStudio.</p>
 <p><strong>Old version of R:</strong> Run <code>R.version.string</code> in the Console to check your version. If it’s more than a year or two old, redownload from CRAN and reinstall — R updates roughly twice a year and packages increasingly expect a recent version.</p>
 <p><strong>“Cannot open file” errors specifically in this course:</strong> Almost always means you didn’t open the project via <code>PSCI-2075.Rproj</code> (Step 4), or a file/folder inside the project got renamed or moved. Re-check the folder structure before anything else.</p>
+<p><strong>Still fighting a path, even after checking the above?</strong> As a fallback, <code>read.csv(file.choose())</code> skips typing a path entirely — it opens a normal file-browser window and reads in whatever file you click. It’s not a habit to keep (it won’t work when a TA reruns your script on their own computer), but it’s a fine way to get unstuck in the moment and confirm the file itself reads in fine.</p>
 </div>
 </div>
 </div>
